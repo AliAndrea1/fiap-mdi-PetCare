@@ -1,56 +1,137 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Bem Vindo(a) a PetCare! 👋
 
-## Get started
 
-1. Install dependencies
 
-   ```bash
-   npm install
+## Integrantes do grupo:
+
+- Ali Andrea Mamani Molle - 558052
+- Guilherme Linard F.R Gozzi - 555768
+- Lucas Vasquez Silva - 555159
+
+## Funções do grupo:
+
+- Lucas Vasquez Silva - Documentação Readme
+- Ali Andrea Mamani Molle - Design do figma
+- Guilherme Linard F.R Gozzi - Apresentação do Pitch do projeto
+
+# Sobre:
+
+## Nome:
+
+- PetCare
+
+## Problema:
+
+Muitos tutores possuem dificuldade para organizar e acompanhar as informações relacionadas à saúde e à rotina de seus pets. Dados como vacinas, consultas veterinárias, medicamentos e outros cuidados recorrentes podem ficar espalhados em carteiras de vacinação, documentos, mensagens ou anotações.
+
+Essa falta de organização pode fazer com que o tutor tenha dificuldade para consultar o histórico do animal ou se lembrar de cuidados importantes.
+
+O **PetCare** foi pensado para centralizar essas informações em um único aplicativo, facilitando o acompanhamento da saúde e da rotina dos pets.
+
+## Público-Alvo
+
+O aplicativo é destinado principalmente a:
+
+- Tutores de cães, gatos e outros animais domésticos;
+- Pessoas que possuem mais de um pet;
+- Tutores que desejam organizar o histórico de saúde dos animais;
+- Pessoas que possuem dificuldade em acompanhar datas de vacinas e consultas;
+- Famílias que compartilham os cuidados de um mesmo pet.
+
+## Proposta de Valor
+
+O PetCare oferece uma forma simples de centralizar informações importantes sobre os pets, permitindo que o tutor acompanhe sua saúde e rotina em um único lugar.
+
+Tendo como principal proposta:
+
+-  Centralizar informações dos pets;
+-  Acompanhar vacinas;
+-  Registrar consultas veterinárias;
+-  Organizar cuidados e compromissos;
+-  Receber lembretes de cuidados importantes;
+-  Consultar o histórico do pet de forma rápida;
+-  Gerenciar mais de um pet no mesmo aplicativo.
+
+
+## Funcionalidades: 
+
+- Cadastro de pets;
+- Visualização do perfil do pet;
+- Registro de vacinas;
+- Controle de consultas;
+- Histórico de saúde;
+- Lembretes de cuidados;
+- Organização da rotina do pet.
+
+
    ```
+# Visualização
+(https://www.figma.com/design/bZG6NRVWyeoYYrk2EbvFjO/PetCare?node-id=2-72&t=zX17zzY9CjTEKIqZ-1)
 
-2. Start the app
+# Decisões Técnicas:
 
-   ```bash
-   npx expo start
-   ```
+## Estrutura do Projeto
 
-In the output, you'll find options to open the app in a
+PetCare
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+src/
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    assets/
 
-## Get a fresh project
+    components/
 
-When you're ready, run:
+    screens/
 
-```bash
-npm run reset-project
-```
+        Home
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+        Login
 
-### Other setup steps
+        Vacinas
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+        Consultas
 
-## Learn more
+        Medicamentos
 
-To learn more about developing your project with Expo, look at the following resources:
+        PerfilPet
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+    navigation/
 
-## Join the community
+    services/
 
-Join our community of developers creating universal apps.
+    hooks/
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    utils/
+
+    styles/
+
+App.js
+
+package.json
+
+
+- screens/
+  - Home.js → Tela inicial
+  - Login.js → Tela de login
+  - Vacinas.js → Tela de vacinas
+  - Consultas.js → Tela de consultas agendadas
+  - Medicamentos.js → Tela de login de compra de medicamentos
+
+---
+
+## Tecnologias Utilizadas/serão utilizadas
+- React Native
+- Expo
+- React Navigation
+- JavaScript
+- AsyncStorage
+- Context API
+
+- Figma (Confecção do Design das telas)
+
+---
+
+
+
+
+
