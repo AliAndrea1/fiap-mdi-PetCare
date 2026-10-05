@@ -49,6 +49,49 @@ O PetCare oferece uma forma simples e organizada de centralizar informações im
 A aplicação permite que o tutor tenha acesso aos principais dados do animal, acompanhe seu histórico e registre novos cuidados em um único lugar.
 
 ---
+## Manual de Uso
+
+### 1. Acesso ao aplicativo
+Ao abrir o PetCare, o usuário pode realizar o cadastro de uma nova conta ou entrar utilizando uma conta já cadastrada.
+
+### 2. Tela inicial
+Após o login, o usuário é direcionado para a Home, onde pode visualizar as principais informações do pet e acessar as demais funcionalidades do aplicativo.
+
+### 3. Perfil
+Na área de perfil, o usuário pode consultar e editar as informações do pet, informações adicionais e seus dados de tutor.
+
+### 4. Vacinas
+Na tela de Vacinas, o usuário pode consultar as vacinas registradas para o pet e acompanhar seu histórico.
+
+### 5. Consultas
+Na área de Consultas, é possível visualizar consultas cadastradas e agendar uma nova consulta veterinária.
+
+### 6. Medicamentos
+Na tela de Medicamentos, o usuário pode visualizar os medicamentos registrados e adicionar novos medicamentos.
+
+### 7. Navegação
+Os menus do aplicativo permitem navegar entre Home, Vacinas, Consultas, Medicamentos e Perfil.
+
+### 8. Encerramento da sessão
+Na área de perfil, o usuário pode realizar logout da conta. Também é possível excluir a conta quando desejado.
+
+
+## Decisões Técnicas Finais
+
+O PetCare foi desenvolvido utilizando React Native com Expo e TypeScript, permitindo o desenvolvimento de uma aplicação mobile organizada e compatível com dispositivos Android.
+
+Para a navegação entre as telas foi utilizado o Expo Router, baseado na estrutura de arquivos da aplicação.
+
+O Supabase foi escolhido como backend do projeto, sendo responsável pela autenticação dos usuários e pelo armazenamento dos dados utilizados pelo aplicativo, como informações de perfil, pet, vacinas, consultas e medicamentos.
+
+Para manter a sessão do usuário após o fechamento do aplicativo, foi utilizado AsyncStorage em conjunto com a autenticação do Supabase.
+
+As credenciais de conexão com o Supabase são configuradas através de variáveis de ambiente e não são armazenadas diretamente no repositório.
+
+O APK Android foi gerado utilizando EAS Build e posteriormente instalado e testado em dispositivo Android para validação da versão final.
+
+Durante a evolução do projeto, o protótipo inicial foi transformado em uma aplicação funcional, mantendo a identidade visual definida no CP4 e adicionando persistência de dados, autenticação e operações reais integradas ao backend.
+
 
 ## Funcionalidades
 
