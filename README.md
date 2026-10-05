@@ -81,17 +81,17 @@ O design das telas foi desenvolvido no **Figma**, buscando uma interface simples
 https://www.figma.com/design/bZG6NRVWyeoYYrk2EbvFjO/PetCare?node-id=2-72&t=zX17zzY9CjTEKIqZ-1
 
 ---
-**Vídeo de demonstração:**  
+## **Vídeo de demonstração:**  
 
 [Assistir ao vídeo](https://youtube.com/shorts/ky3bTRFH9E4?feature=share)
 ---
 
-#  APK
+##  APK
 
 O aplicativo também foi gerado em formato **APK para Android**, permitindo sua instalação e execução diretamente em dispositivos compatíveis.
 
 🔗 **Download do APK:**  
-**[[ADICIONAR LINK DO APK AQUI](https://expo.dev/accounts/aliandreas-team/projects/petcare/builds/60325ac2-8640-43ba-9e5c-bc8aa4b8d67c)]**
+**https://expo.dev/accounts/aliandreas-team/projects/petcare/builds/60325ac2-8640-43ba-9e5c-bc8aa4b8d67c**
 
 ---
 
