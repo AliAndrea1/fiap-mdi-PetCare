@@ -50,7 +50,7 @@ A aplicação permite que o tutor tenha acesso aos principais dados do animal, a
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
 O aplicativo possui as seguintes funcionalidades:
 
@@ -73,7 +73,7 @@ O aplicativo possui as seguintes funcionalidades:
 
 ---
 
-# Protótipo e Design
+## Protótipo e Design
 
 O design das telas foi desenvolvido no **Figma**, buscando uma interface simples, amigável e adequada à proposta do PetCare.
 
@@ -95,7 +95,7 @@ O aplicativo também foi gerado em formato **APK para Android**, permitindo sua 
 
 ---
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **React Native** - Desenvolvimento da aplicação mobile;
 - **Expo** - Ambiente e ferramentas para desenvolvimento e execução;
@@ -109,7 +109,7 @@ O aplicativo também foi gerado em formato **APK para Android**, permitindo sua 
 
 ---
 
-# Banco de dados
+## Banco de dados
 
 O projeto utiliza o **Supabase** como serviço de backend.
 
@@ -127,7 +127,7 @@ As credenciais e chaves utilizadas para conexão com o serviço são armazenadas
 
 ---
 
-# Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 PetCare/
@@ -170,7 +170,7 @@ PetCare/
 
 ---
 
-# Como executar o projeto
+## Como executar o projeto
 
 ## 1. Clone o repositório
 
@@ -211,7 +211,7 @@ O aplicativo poderá ser executado utilizando o **Expo Go** em um dispositivo co
 
 ---
 
-# Testes e validação
+## Testes e validação
 
 Durante o desenvolvimento foram realizados testes das principais funcionalidades da aplicação, incluindo:
 
@@ -230,6 +230,6 @@ O funcionamento geral da aplicação também pode ser visualizado no vídeo de d
 
 ---
 
-# Disciplina
+## Disciplina
 
 Projeto desenvolvido para a disciplina de **Mobile Development & IoT** da FIAP.
