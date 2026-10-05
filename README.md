@@ -22,10 +22,6 @@ O PetCare é um aplicativo mobile desenvolvido com o objetivo de facilitar a org
 
 # Sobre o projeto
 
-## Nome
-
-**PetCare**
-
 ## Problema
 
 Muitos tutores possuem dificuldade para organizar e acompanhar as informações relacionadas à saúde e à rotina de seus pets.
