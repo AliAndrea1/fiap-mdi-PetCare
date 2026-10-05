@@ -233,9 +233,3 @@ O funcionamento geral da aplicação também pode ser visualizado no vídeo de d
 # Disciplina
 
 Projeto desenvolvido para a disciplina de **Mobile Development & IoT** da FIAP.
-
----
-
-## 🐾 PetCare
-
-**Cuidar também é organizar.**
