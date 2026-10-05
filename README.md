@@ -50,7 +50,7 @@ A aplicação permite que o tutor tenha acesso aos principais dados do animal, a
 
 ---
 
-# ⚙️ Funcionalidades
+# Funcionalidades
 
 O aplicativo possui as seguintes funcionalidades:
 
